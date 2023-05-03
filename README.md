@@ -78,10 +78,15 @@ C#ソースコードをGitHubで管理してみる。
 
 		cd github
 
+	2. ”Solution1”という名前のリポジトリを新規作成する。
+
+		<ターミナル>
+
 		# pwd
 		# /Users/xxxxxx/github
-
-	2. ”Solution1”という名前のリポジトリを新規作成する。
+		#
+		# ls -a
+		# .    ..
 
 		gh repo create
 
