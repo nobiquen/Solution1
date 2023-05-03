@@ -158,14 +158,12 @@ C#ソースコードをGitHubで管理してみる。
 
 # 作成したソースコードをGitHubに登録（変更を適用）する。
 
-	<ターミナル>
-
-	# pwd
-	# /Users/xxxxxx/github/Solution1
-
 	1. （ローカル）ワークツリーから、インデックスに登録する。
 
 		<ターミナル>
+
+		# pwd
+		# /Users/xxxxxx/github/Solution1
 
 		git add .
 
@@ -176,7 +174,6 @@ C#ソースコードをGitHubで管理してみる。
 		git commit
 
 		>>> vim が起動してしまった時は、[ESC]を押して、:q!を入力して{Enter}キーを押す。
-
 		>>> vimに不慣れなので、スクリーンエディタをmicroに変更している。
 		>>> ctrl+[Q]キーが、VSCodeと衝突してしまうので、ctrl+[E]の後 quit と入力して終了する。
 
